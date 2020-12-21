@@ -1,0 +1,25 @@
+@import '../styles/Palette/Palette.scss';
+
+@font-face {
+	font-family: 'NotoSans_KR';
+	src: url('assets/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'NotoSans_KR';
+}
+
+html,
+body {
+	width: 100%;
+	height: 100vh;
+}
+
+td {
+	vertical-align: middle;
+}

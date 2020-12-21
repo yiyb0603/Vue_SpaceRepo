@@ -1,0 +1,10 @@
+@import '@/styles/palette/palette.scss';
+
+.AuthInput {
+	border: none;
+	outline: none;
+	font-size: 18px;
+	border-bottom: 1px solid $purple;
+	padding-bottom: 8px;
+	margin: 10px 0;
+}
